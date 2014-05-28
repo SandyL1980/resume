@@ -1,0 +1,229 @@
+.header .row {
+	margin:0;
+	padding:0;
+	max-width: 100%;
+
+
+}
+
+.header .columns {
+	padding: 0;
+}
+
+h1.title {
+	color: #eee;
+}
+
+.tab-bar .right {
+	width:auto;
+	display: inline-block;
+	margin-right: 250px;
+
+}
+
+	.right-small li {
+		width: 70px;
+		padding: 3.5px 0;
+		margin:0;
+
+	
+	}
+
+/*icons customization*/
+.right i {
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-ms-transition: all .5s;
+}
+ 	.right li:hover i {
+	color: #fff;
+	}
+
+
+.right li {
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-ms-transition: all .5s;
+	border-right: 1px solid #000;
+
+}
+		
+		#facebook {
+			background:#3B5998;
+		    opacity: .8;
+		}
+			#facebook:hover {		
+			opacity:1;
+			}
+
+		#twitter {
+			background:#55ACEE;
+		    opacity: .8;
+		}
+			#twitter:hover {		
+			opacity:1;
+			}
+
+		#linkedin {
+			background:#1A85BC;
+		    opacity: .8;
+		}
+			#linkedin:hover {		
+			opacity:1;
+			}
+
+		#github {
+			background:#62E3FF;
+		    opacity: .8;
+		}
+			#github:hover {		
+			opacity:1;
+			}
+
+		#googleplus{
+			background:#D84734;
+		    opacity: .8;
+		}
+			#email:hover {		
+			opacity:1;
+			}
+
+		#emailme{
+			background:#666;
+		    opacity: .8;
+		}
+			#email:hover {		
+			opacity:1;
+			}
+
+		
+
+
+
+/*mobile navbar*/
+
+.right a {
+	padding:0;
+	margin:0;
+	width: 70px;
+}
+
+
+
+
+.left-off-canvas-menu {
+	background: #eee;
+	position: fixed;
+	height: 1300px;
+
+}
+
+	ul.off-canvas-list li label {
+		background: #333;
+		padding: 5px 0.9375rem;
+	}
+
+.left-small{
+	width:auto;
+	display: inline-block;
+	padding: 0 2%;
+	color: #eee;
+}
+
+	.left-small a {
+		color: #eee;
+	}
+
+.middle {
+	margin-left: 80px;
+	padding-left: 20px;
+}
+
+.tab-bar {
+	position: fixed;	
+	width: 100%;
+}
+
+.inline-list {
+	margin: 0;
+}
+
+.inline-list a {
+	color: #eee;
+	margin:0;
+	font-size: 1.5em;
+}
+
+.main-section {
+   margin: 4% 250px 4%  46px;
+}
+
+	.main-section > div {
+		margin: 8% 0;
+	}
+
+.off-canvas-list label {
+	height: 46px;
+}
+
+.software ul,
+.skills ul,
+.summary ul {
+	margin: 2% 0;
+}
+
+.aboutme li:nth-child(2){
+padding: 6%;
+font-size: .8em;
+}
+
+.aboutme label{
+	background: #eee;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.accordion dd a {
+	background: none;	
+	border-bottom: 1px solid #dedede;
+}
+.company {
+	display: block;
+}
+
+.fi-play {
+color: #ccc;
+display: inline-block;
+transition: all .5s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+-ms-transition: all .5s;
+}
+
+.fi-play_active {
+ color: #333;
+transform:rotate(90deg);
+-ms-transform:rotate(90deg); /* IE 9 */
+-webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */
+}
+
+
+@media screen and (min-width: 468px) and (max-width: 648px) {
+
+	.right li {
+ width: 150px;
+}
+
+	
+}
+@media screen and (max-width: 468px) {
+
+.right i {
+	font-size: 2em;
+}
+
+}
