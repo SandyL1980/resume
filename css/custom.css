@@ -3,7 +3,6 @@
 	padding:0;
 	max-width: 100%;
 
-
 }
 
 .header .columns {
@@ -12,6 +11,9 @@
 
 h1.title {
 	color: #eee;
+}
+.tab-bar {
+background: #288B9A;	
 }
 
 .tab-bar .right {
@@ -49,7 +51,8 @@ h1.title {
 	border-right: 1px solid #000;
 
 }
-		
+	
+/*social media links customization*/	
 		#facebook {
 			background:#3B5998;
 		    opacity: .8;
@@ -100,8 +103,6 @@ h1.title {
 
 		
 
-
-
 /*mobile navbar*/
 
 .right a {
@@ -111,17 +112,18 @@ h1.title {
 }
 
 
-
-
 .left-off-canvas-menu {
-	background: #eee;
+	/*background: #eee;*/
+	background: #EFEDDF;
 	position: fixed;
 	height: 1300px;
 
 }
 
 	ul.off-canvas-list li label {
-		background: #333;
+		/*background: #333;*/
+		background: #288B9A;
+		color: #eee;
 		padding: 5px 0.9375rem;
 	}
 
@@ -150,11 +152,11 @@ h1.title {
 	margin: 0;
 }
 
-.inline-list a {
-	color: #eee;
-	margin:0;
-	font-size: 1.5em;
-}
+	.inline-list a {
+		color: #eee;
+		margin:0;
+		font-size: 1.5em;
+	}
 
 .main-section {
    margin: 4% 250px 4%  46px;
@@ -166,6 +168,7 @@ h1.title {
 
 .off-canvas-list label {
 	height: 46px;
+	background:#288B9A;
 }
 
 .software ul,
